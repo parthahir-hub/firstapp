@@ -10,8 +10,3 @@ if d==True:
     st.text(f"your age is {b}")
     st.text(f"todays date is {c}")
     st.text(f"here is something you wrote about yourself:- \n {e}")
-    with open("info.txt","a")as f:
-             f.write(f"{a} \n")
-             f.write(f"{b} \n")
-             f.write(f"{c} \n")
-             f.write(f"{e} \n")
